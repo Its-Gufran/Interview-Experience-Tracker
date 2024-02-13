@@ -1,0 +1,27 @@
+Interview Experience Tracker for college students
+Based on College
+Simple Sharing of Experineces
+Questions iLink
+Text Editor
+Difficulty
+Comments
+Status (Seleted, Rejected)
+Share, Company Name
+Link to Resume of Company
+Profile
+Screenshots of Questions Etc.
+
+
+User Profile
+Stars based on Salary
+> 5 Bronze
+>5<10 Silver
+10-20 Gold
+30+ Diamond
+Sort on the basis of Badge
+
+Total likes, ranking
+
+
+One to One chat... 
+  
