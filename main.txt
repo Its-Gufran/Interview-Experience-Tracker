@@ -19,9 +19,34 @@ Stars based on Salary
 10-20 Gold
 30+ Diamond
 Sort on the basis of Badge
-
 Total likes, ranking
 
 
 One to One chat... 
   
+
+//Git Commands
+
+//For Faiz
+
+//To push the changes
+git add.
+git commit -m""
+git push origin faiz
+
+//To pull the changes
+
+
+//For Gufran
+
+//To push the changes 
+git add.
+git commit -m""
+git push origin Gufran
+
+//To pull the changes
+git checkout gufran
+git fetch origin
+git merge origin/faiz
+git merge --continue
+git push origin gufran
