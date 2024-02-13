@@ -35,7 +35,11 @@ git commit -m""
 git push origin faiz
 
 //To pull the changes
-
+git checkout faiz
+git fetch origin
+git merge origin/gufran
+git merge --continue
+git push origin faiz
 
 //For Gufran
 
