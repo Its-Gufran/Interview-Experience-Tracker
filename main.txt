@@ -54,3 +54,21 @@ git fetch origin
 git merge origin/faiz
 git merge --continue
 git push origin gufran
+
+
+To Install Client Dependencies
+npm i
+To run client react application
+npm run dev
+
+
+
+// Frontend
+
+Font Family
+for body texts : Inter
+for headings and main texts : Raleway
+Components name camelCase
+Pages Capital Start 
+
+
