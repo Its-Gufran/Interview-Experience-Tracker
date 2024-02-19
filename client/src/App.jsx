@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <Navbar/>
+      <Home />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
