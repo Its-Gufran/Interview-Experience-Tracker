@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const postSchema = new mongoose.Schema(
     {
@@ -26,17 +26,26 @@ const postSchema = new mongoose.Schema(
           type: String,
           required: true,
         },
-        date_time: {
-          type: Date,
-          required: true,
+        job_role: {
+          type: String,
+          require: true,
         },
         status: {
           type: String,
           required: true,
-          enum: ["selected", "rejected"],
+          enum: ["selected", "rejected"], // Example statuses
+        },
+        overall_experience: {
+          type: String,
+          require: true,
         },
       },
       { timestamps: true }
 );
 
-export default mongoose.model("post", postSchema);
+module.exports = mongoose.model("Post", postSchema);
+
+
+
+//overall experience
+//job role

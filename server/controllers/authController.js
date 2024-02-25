@@ -93,7 +93,6 @@ const loginController = async (req, res) => {
         address: user.address,
         role: user.role,
       },
-      token,
     });
   } catch (error) {
     console.log(error);
@@ -129,6 +128,7 @@ const forgotPasswordController = async (req, res) => {
     }
     const hashed = await hashPassword(newPassword);
     await userModel.findByIdAndUpdate(user._id, { password: hashed });
+    console.log("user found")
     res.status(200).send({
       success: true,
       message: "password Reset Successfully",
@@ -148,7 +148,6 @@ const updateProfileController = async (req, res) => {
   try {
     const { name, email, password, phone } = req.body;
     const user = await userModel.findById(req.user._id);
-    //password
     if (password && password.length < 6) {
       return res.json({ error: "Passsword is required and 6 character long" });
     }
