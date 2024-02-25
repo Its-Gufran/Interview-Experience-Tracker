@@ -33,7 +33,7 @@ const postSchema = new mongoose.Schema(
         status: {
           type: String,
           required: true,
-          enum: ["scheduled", "completed", "cancelled", "postponed"], // Example statuses
+          enum: ["selected", "rejected"],
         },
       },
       { timestamps: true }

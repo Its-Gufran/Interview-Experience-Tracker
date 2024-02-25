@@ -24,7 +24,9 @@ const Home = () => {
             and hear directly from other students who sat in the hot seat before
             their college admission.
           </div>
-          <Button value="Get Started" />
+          <button className="text-sm bg-blue-500 font-medium px-8 py-4 text-white hover:bg-blue-600 rounded-md">
+            Get Started
+          </button>
         </div>
         <img src={landingImage} className="w-5/5 md:w-2/5 " />
       </div>
@@ -84,7 +86,9 @@ const Home = () => {
 
       {/* Third Section */}
       <div>
-        <div className="text-center font-bold text-3xl lg:text-6xl text-slate-400 pb-20 lg:my-10">Add your college.</div>
+        <div className="text-center font-bold text-3xl lg:text-6xl text-slate-400 pb-20 lg:my-10">
+          Add your college.
+        </div>
         <div className="flex flex-col gap-10 md:flex-row items-center">
           <div className="w-full">
             <img src={Collage} />
@@ -99,7 +103,9 @@ const Home = () => {
               website where users can view and add interview experiences
               specific to that college.
             </p>
-            <Button value="Add Collage"/>
+            <button className="text-sm bg-blue-500 font-medium px-8 py-4 text-white hover:bg-blue-600 rounded-md">
+              Get Started
+            </button>
           </div>
         </div>
       </div>

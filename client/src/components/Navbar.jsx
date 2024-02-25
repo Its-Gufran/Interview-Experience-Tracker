@@ -9,7 +9,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center px-5 py-2 bg-gray-50 relative">
+    <div className="sticky top-0 w-[100%]">
+
+    <div className="flex justify-between items-center px-5 py-2 bg-gray-50 relative shadow-md">
       <div className="text-md md:text-lg font-semibold">InterviewXchange.</div>
       <div className="md:hidden">
         <MenuIcon onClick={toggleMenu} />
@@ -34,12 +36,15 @@ const Navbar = () => {
           </h1>
         </div>
         <div className="flex gap-2">
-          <button className="bg-blue-500 px-3 py-2 text-white hover:bg-blue-800 font-medium">
+          <button className="bg-blue-500 px-3 py-2 text-white hover:bg-blue-800 font-medium rounded-sm">
             Login
           </button>
-          <button className="border px-3 py-2">Register</button>
+          <button className="border px-3 py-2 rounded-sm hover:bg-slate-100">
+            Register
+          </button>
         </div>
       </div>
+    </div>
     </div>
   );
 };
